@@ -1,9 +1,9 @@
 import {makeProject} from '@motion-canvas/core/lib';
-import TransformerIntroduced from './scenes/TransformerIntroduced?scene';
-
+import chatGPTDemo from './scenes/chatGPTDemo?scene';
 import example from './scenes/example?scene';
 
+
 export default makeProject({
-  scenes: [example],
-  background: '#141414',
+  scenes: [chatGPTDemo, example],
+  background: '#964B00',
 });
