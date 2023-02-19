@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "serve": "vite",
+    "serve": "vite --autoplay-policy=no-user-gesture-required",
     "build": "tsc && vite build"
   },
   "dependencies": {
+    "@motion-canvas/2d": "^2.3.0",
     "@motion-canvas/core": "^2.3.0",
-    "@motion-canvas/2d": "^2.3.0"
+    "ffmpeg": "^0.0.4"
   },
   "devDependencies": {
     "@motion-canvas/ui": "^2.3.0",
