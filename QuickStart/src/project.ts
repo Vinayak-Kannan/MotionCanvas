@@ -4,6 +4,6 @@ import example from './scenes/example?scene';
 
 
 export default makeProject({
-  scenes: [chatGPTDemo, example],
+  scenes: [example, chatGPTDemo],
   background: '#964B00',
 });
