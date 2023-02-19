@@ -22,6 +22,6 @@ export default makeScene2D(function* (view) {
 
   videoRef().play();
 
-  yield* videoRef().scale(1, 5).to(1, 1);
+  yield* videoRef().scale(1, 2).to(1, 1);
 
 });

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "serve": "vite --autoplay-policy=no-user-gesture-required",
+    "serve": "vite && --autoplay-policy=no-user-gesture-required",
     "build": "tsc && vite build"
   },
   "dependencies": {
