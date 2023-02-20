@@ -9,6 +9,6 @@ import { Vector2 } from '@motion-canvas/core/lib/types/Vector';
 
 export default makeProject({
   scenes: [chatGPTDemo, transfomerIntro, example],
-  background: '#964B00',
+  background: '#402c23',
   size: new Vector2(bottomHalfHeight, width)
 });
